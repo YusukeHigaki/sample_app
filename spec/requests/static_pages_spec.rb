@@ -28,7 +28,6 @@ describe "Static pages" do
 
   describe "About page" do
     before { visit about_path }
-    before { visit root_path }
     let(:heading) {'About'}
     let(:page_title) {'About Us'}
 
